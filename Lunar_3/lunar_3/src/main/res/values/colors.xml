@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_color">#FFFF0F</color>
+    <color name="version_color">#f0f0f0</color>
+    <color name="version_bkgrd">#1a1a48</color>
+    <color name="scan_background">#FF0000</color>
+    <color name="select_background">#666</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    
+    
+</resources>

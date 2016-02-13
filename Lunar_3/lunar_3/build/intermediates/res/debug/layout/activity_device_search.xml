@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_device"
+        android:background="@color/select_background"
+        android:textColor="@color/white"
+        android:paddingLeft="5dp" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/select_background"
+        android:paddingLeft="5dp"
+        android:text="@string/title_paired_devices"
+        android:textColor="@color/white" />
+
+    <ListView android:id="@+id/paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:layout_weight="1" />
+    
+    <TextView android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_other_devices"
+        android:background="@color/select_background"
+        android:textColor="@color/white"
+        android:paddingLeft="5dp" />
+    
+    <ListView android:id="@+id/new_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:layout_weight="2" />
+    
+    <Button android:id="@+id/button_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_scan"
+        android:onClick="startScan" />
+
+</LinearLayout>
+
+<!-- From: file:/D:/AIS%20-%20Μεταπτυχιακό/Β'%20Εξάμηνο/Arduino%20-%20Εφαρμογές%20Ανοικτού%20ΛογισμικούΥλικού/Lunar_3/lunar_3/src/main/res/layout/activity_device_search.xml -->

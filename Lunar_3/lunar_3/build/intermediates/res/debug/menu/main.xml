@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/connect"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/connect" />
+    
+    <item android:id="@+id/menu_info"
+          android:icon="@android:drawable/ic_menu_info_details"
+    	  android:title="@string/title_info" />          
+
+</menu>
+<!-- From: file:/D:/AIS%20-%20Μεταπτυχιακό/Β'%20Εξάμηνο/Arduino%20-%20Εφαρμογές%20Ανοικτού%20ΛογισμικούΥλικού/Lunar_3/lunar_3/src/main/res/menu/main.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AIS%20-%20Μεταπτυχιακό/Β'%20Εξάμηνο/Arduino%20-%20Εφαρμογές%20Ανοικτού%20ΛογισμικούΥλικού/Lunar_3/lunar_3/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="green">#00FF00</color>
+    <color name="logo_color">#FFFF0F</color>
+    <color name="red">#FF0000</color>
+    <color name="scan_background">#FF0000</color>
+    <color name="select_background">#666</color>
+    <color name="version_bkgrd">#1a1a48</color>
+    <color name="version_color">#f0f0f0</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable>
+    <!-- From: file:/D:/AIS%20-%20Μεταπτυχιακό/Β'%20Εξάμηνο/Arduino%20-%20Εφαρμογές%20Ανοικτού%20ΛογισμικούΥλικού/Lunar_3/lunar_3/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/AIS%20-%20Μεταπτυχιακό/Β'%20Εξάμηνο/Arduino%20-%20Εφαρμογές%20Ανοικτού%20ΛογισμικούΥλικού/Lunar_3/lunar_3/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Lunar_3</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="connect">Connect BT device</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No paired devices </string>
+    <string name="scanning">scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="title_activity_device_search">Device Search</string>
+    <string name="title_info">App Info</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <!-- From: file:/D:/AIS%20-%20Μεταπτυχιακό/Β'%20Εξάμηνο/Arduino%20-%20Εφαρμογές%20Ανοικτού%20ΛογισμικούΥλικού/Lunar_3/lunar_3/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
